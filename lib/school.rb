@@ -23,8 +23,8 @@ class School
   
 def sort
   @roster.sort_by do |grade, name| 
-    
-  
+    grade[name]
+  end
   
 end
 end 
