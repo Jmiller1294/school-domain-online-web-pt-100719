@@ -6,4 +6,10 @@ attr_reader :name
 def name
   @name = name
 end
+
+roster = {}
+
+def add_student(name, grade)
+@name =
+end
 end
