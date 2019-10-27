@@ -1,6 +1,9 @@
 # code here!
 class School
 
-attr_reader
+attr_reader :name
 
+def name
+  @name = name
+end
 end
