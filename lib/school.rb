@@ -19,9 +19,9 @@ class School
   
   def grade(grade)
     @grade = grade
-    array = @grade[name]
-      array
-    end
+     @grade[name]
+    
+  
     
   
 end
