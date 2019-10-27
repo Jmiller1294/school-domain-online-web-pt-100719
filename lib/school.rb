@@ -12,6 +12,7 @@ end
 
 def add_student(student)
   student.each do |name, grade|
-    @roster << 
+    @roster << student
+  end
 end
 
