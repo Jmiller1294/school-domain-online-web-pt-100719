@@ -18,8 +18,8 @@ class School
   end
   
   def grade(grade)
-    @grade = grade[name]
-  
+    self.roster[grade]
+    @roster[grade]
   
 
   end
