@@ -21,7 +21,7 @@ class School
     @grade = grade[name]
   
   
-end
+
   end
   
     
