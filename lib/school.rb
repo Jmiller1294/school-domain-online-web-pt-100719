@@ -13,7 +13,8 @@ end
 def add_student(name, grade)
     @grade = grade
     @name = name
-    ROSTER << grade
+    
+    @roster << grade
     ROSTER << name
   end
 end
