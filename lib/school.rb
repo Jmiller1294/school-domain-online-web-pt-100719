@@ -11,7 +11,8 @@ def initialize(name)
 end
 
 def add_student(name, grade)
-  
+    @grade = grade
+    @name = name
     @roster << grade
     @roster << name
   end
