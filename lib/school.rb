@@ -13,6 +13,8 @@ def add_student(name, grade)
 @name = name
 @grade = grade
 
+add_student.each do |name, grade|
 
 end
 end
+
