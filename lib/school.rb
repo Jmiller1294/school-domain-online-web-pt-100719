@@ -19,7 +19,9 @@ class School
   
   def grade(grade)
     @grade = grade
+  if @grade == @grade
   [name]
+end
   end
   
     
