@@ -19,8 +19,8 @@ class School
   
   def grade(grade)
     @grade = grade
-    array = @grade[name].map do 
-      
+    array = @grade[name].map do |grade, name|
+      name
     end
     
   end
