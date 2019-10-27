@@ -14,7 +14,7 @@ def add_student(name, grade)
 @grade = grade
 
 add_student.each do |name, grade|
-
+[:name]
 end
 end
 
