@@ -7,12 +7,14 @@ attr_reader :name, :roster
 
 def initialize(name)
 @name = name
-@roster = {}
-
+ROSTER = {}
 end
 
-
-
+def add_student(name, grade)
+@name = name
+@grade = grade
+@roster
+end
 
 end
 
