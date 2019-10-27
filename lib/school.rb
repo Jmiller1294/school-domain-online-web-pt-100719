@@ -19,6 +19,7 @@ class School
   
   def grade(grade)
     @grade = grade
+    array = []
     
   end
 end
