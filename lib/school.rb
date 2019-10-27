@@ -23,6 +23,6 @@ class School
       array
     end
     
-  end
+  
 end
 
