@@ -10,10 +10,10 @@ def initialize(name)
 @roster = {}
 end
 
-def add_student(student)
-  student.each do |name, grade|
-    @roster << student
+def add_student(name, grade)
+  
+    @roster << grade
+    @roster << name
   end
-end
 end
 
