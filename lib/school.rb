@@ -5,6 +5,7 @@ attr_reader :name
 
 ROSTER = {}
 def initialize(name,roster)
+
 end
 
 
