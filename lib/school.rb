@@ -18,9 +18,9 @@ class School
   end
   
   def grade(grade)
-    @grade = grade
-  if @grade == @grade
-  [name]
+    @grade = grade[name]
+  
+  
 end
   end
   
