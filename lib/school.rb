@@ -19,7 +19,7 @@ class School
   
   def grade(grade)
     @grade = grade
-    array = @grade.map do |grade, name|
+    array = @grade.each do |grade, name|
       name
     end
     
